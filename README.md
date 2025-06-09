@@ -30,6 +30,19 @@ A clean, responsive, and cross-platform **BMI Calculator App** developed using *
 
 ---
 
+## 📸 Screenshots
+
+### Light Theme
+![Light Theme]light_mode.png)
+
+![Light Theme]lightmode_ss.png)
+
+
+### Dark Theme
+![Dark Theme](dark_mode.png)
+![Dark Theme](darkmode_ss.png)
+
+
 ## 🚀 Getting Started
 
 ### 🔧 Prerequisites
