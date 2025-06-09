@@ -1,16 +1,50 @@
-# bmi_calculator_app
+# BMI Calculator App – Flutter
 
-A new Flutter project.
+[![Flutter](https://img.shields.io/badge/Flutter-v3.x-blue.svg?logo=flutter)](https://flutter.dev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![State Management](https://img.shields.io/badge/State%20Management-setState-green.svg)](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple)
 
-## Getting Started
+A clean, responsive, and cross-platform **BMI Calculator App** developed using **Flutter** and **Dart**. This application enables users to calculate their BMI using weight (in kilograms) and height (in feet and inches), providing categorized health feedback based on the result. The app includes a modern Material Design interface with both **light and dark themes**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔢 **BMI Calculation**: Compute BMI based on metric inputs (kg, ft/in)
+- 🌗 **Theme Toggle**: Light/Dark theme switch using Flutter’s `ThemeData`
+- 💡 **Interactive UI**: Clean layout with Material Components
+- ✨ **Input Validation**: Ensures all fields are filled before calculating
+- 📊 **Health Feedback**: Displays BMI with classification (Healthy, Overweight, Underweight)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tech Stack
+
+| Technology  | Usage                                  |
+|-------------|----------------------------------------|
+| Flutter     | Cross-platform app development         |
+| Dart        | Programming language                   |
+| Material UI | UI widgets and layout                  |
+| setState    | Local state management                 |
+| ThemeData   | Light/Dark theme configuration         |
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Android Studio / VS Code / Xcode
+
+---
+
+### 📁 Folder Structure
+
+```bash
+├── lib
+│   ├── main.dart         # App entry point with theme toggle
+│   ├── bmi_calc.dart     # UI and BMI logic
+│   └── theme.dart        # Light and dark theme definitions
+
+
